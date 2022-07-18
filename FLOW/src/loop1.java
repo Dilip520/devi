@@ -14,6 +14,17 @@ public class loop1 {
 			System.out.println("the even num are: " +i);
 		}
 		}
+		
+	int sum=0;
+	for(int i=1;i<=100;i++)
+	{
+		if((i%3==0)&&(i%5==0)) {
+			sum+=i;
+		}
+			
+	}
+		
+		
 	}
 
 }
